@@ -4,7 +4,7 @@ email:       hello@slate-io.com
 author:      slate
 description: "Slate, a fresh look on networking."
 baseurl:     ""
-url:         "http://www.slate-io.com/"
+url:         "http://slate-io.com/"
 date_format: "%b %-d, %Y"
 
 # Google services
