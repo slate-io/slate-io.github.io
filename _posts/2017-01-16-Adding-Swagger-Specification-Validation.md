@@ -10,11 +10,11 @@ Swagger specifications are arguably the most compelling aspect of Swagger. It pr
 
 For Slate, it's a powerful mechanism to define the behavior of any networking operating system. This provides a standardized format to allow users to define commands that can be executed remotely without modifying any of the core code in Slate; which ultimately bridges the gap between developers and network engineers.
 
-However, this results in a multitude of Swagger specifications, which needs to be validated and managed, which can be time-consuming and error-prone. As a solution, the Slate team created the swagger-spec-validator which can be utilized by any continuous integration tools, such as Travis or Jenkins.
+However, this results in a multitude of Swagger specifications, which needs to be validated and managed, which can be time-consuming and error-prone. As a solution, the Slate team created the `swagger-spec-validator` which can be utilized by any continuous integration tools, such as Travis or Jenkins.
 
 In this post, we will be demonstrating how to quickly configure a repository of Swagger specifications to be tested against Travis. Please note that this can be used with other continuous integrations tools, such as Jenkins.
 
-First off, for swagger-spec-validator to locate Swagger specification files, your files must match the filename format *.swagger.json. Thus, your repository structure should resemble a similar structure below:
+First off, for `swagger-spec-validator` to locate Swagger specification files, your files must match the filename format *.swagger.json. Thus, your repository structure should resemble a similar structure below:
 
 ```
 .
@@ -42,7 +42,7 @@ services:
   - docker
 ```
 
-Once Travis can utilize Docker, we set up Travis to pull the (slate/swagger-spec-validator)[ https://hub.docker.com/r/slate/swagger-spec-validator/] from the hub. Now if you recall the environment variable before, we will pass this to our Docker instance to mount your project to be tested against.
+Once Travis can utilize Docker, we set up Travis to pull the [slate/swagger-spec-validator]( https://hub.docker.com/r/slate/swagger-spec-validator/) from the hub. Now if you recall the environment variable before, we will pass this to our Docker instance to mount your project to be tested against.
 
 ```
 before_install:
