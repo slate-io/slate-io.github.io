@@ -1,5 +1,6 @@
-![slate 2](https://cloud.githubusercontent.com/assets/6020066/22077353/b6d34f20-dd68-11e6-9c61-81e7e0e7ce94.png)
-
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/6020066/22077888/e59ba6a2-dd6a-11e6-9789-5b1f8c8dd364.png"/>
+</p>
 # Slate
 Hello, network.
 
